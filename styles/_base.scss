@@ -1,0 +1,32 @@
+// Screen sizes
+$medium: 600px;
+$large: 992px;
+
+
+// Colors
+$dark-blue: #022C3E;
+$aurora-teal: #1DF4DB;
+$aurora-green: #165C6E;
+$hero-text: #09DFD2;
+
+// Mixins
+@mixin font-style() {
+    font-family: 'Roboto', sans-serif;
+    color: lightgray
+}
+
+@mixin borders() {
+    border: 2px solid $aurora-teal;
+    display: inline-block;
+    margin: 5px;
+    padding: 3px;
+}
+
+@mixin modal-close() {
+    color: lightgray;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 822px;
+    bottom: 430px;
+}
