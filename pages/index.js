@@ -1,6 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 // import styles from '../styles/Home.module.css'
-import Hero from '../components/hero'
+import Hero from '../components/hero';
+import MapInfo from '../components/map-info';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <Hero time="2020-07-28 15:00:00" kp="1" />
+      <MapInfo />
     </div>
   )
 }
