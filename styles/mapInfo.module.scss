@@ -4,7 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 50px;
 
     div {
         text-align: center;
@@ -17,12 +18,14 @@
         width: 100%;
         padding: 5px;
 
-        @media screen and (min-width: base.$medium) {
-            width: 50%;
-        }
-
         @media screen and (min-width: base.$large) {
             width: 33%;
+        }
+    }
+
+    img {
+        @media screen and (min-width: base.$medium) {
+            width: 50%;
         }
     }
 }

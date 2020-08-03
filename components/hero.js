@@ -11,4 +11,4 @@ const Hero = props => {
     )
 }
 
-export default Hero
+export default Hero;
