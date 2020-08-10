@@ -33,8 +33,8 @@ export default function Home({ upcoming }) {
 
       {/* <Hero time={lastRecorded[0]} kp={lastRecorded[1]} /> */}
       <MapInfo />
-      {/* <KpGraph kp-data={upcoming} /> */}
       <Line />
+      <KpGraph kp={upcoming} />
       {upcoming.map(kpTime => 
         <li>{kpTime[1]} KP at {kpTime[0]}</li>
       )}
