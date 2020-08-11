@@ -3,6 +3,8 @@ import Hero from '../components/hero';
 import MapInfo from '../components/map-info';
 import KpGraph from '../components/kp-graph';
 import Line from '../components/line-graph';
+import KpBar from '../components/kp-bar';
+
 import { forcast } from '../lib/forcast';
 import { lastKp } from '../lib/previous';
 
@@ -33,11 +35,12 @@ export default function Home({ upcoming }) {
 
       {/* <Hero time={lastRecorded[0]} kp={lastRecorded[1]} /> */}
       <MapInfo />
-      <Line />
-      <KpGraph kp={upcoming} />
-      {upcoming.map(kpTime => 
+      {/* <Line kp={upcoming} /> */}
+      {/* <KpGraph kp={upcoming} /> */}
+      <KpBar kp={upcoming} />
+      {/* {upcoming.map(kpTime => 
         <li>{kpTime[1]} KP at {kpTime[0]}</li>
-      )}
+      )} */}
     </div>
   )
 }
