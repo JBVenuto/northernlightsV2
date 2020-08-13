@@ -12,3 +12,51 @@ body {
 li {
   color: white;
 }
+
+// .kpBar {
+//   width: 80%;
+//   margin: auto;
+//   color: white;
+
+//   .kpBar_date {
+//       color: white;
+//   }
+
+//   .kpBar_bar_1 {
+//       background-color: base.$aurora-teal;
+//       text-align: right;
+//       display: inline-block;
+//       width: 11%;
+//   }
+//   .kpBar_bar_2 {
+//       background-color: base.$aurora-teal;
+//       text-align: right;
+//       display: inline-block;
+//       width: 22%;
+//   }
+//   .kpBar_bar_3 {
+//       background-color: base.$aurora-teal;
+//       text-align: right;
+//       display: inline-block;
+//       width: 33%;
+//   }
+//   .kpBar_bar_4 {
+//       background-color: base.$aurora-teal;
+//       text-align: right;
+//       display: inline-block;
+//       width: 44%;
+//   }
+// }
+
+.kp_1 {
+  width: 11%;
+}
+.kp_2 {
+  width: 22%;
+}
+.kp_3 {
+  width: 33%;
+}
+.kp_4 {
+  width: 44%;
+}
