@@ -3,7 +3,8 @@
 .mapInfo {
     display: flex;
     flex-wrap: wrap;
-    margin: 15px;
+    margin: auto;
+    max-width: 1080px;
     justify-content: center;
     margin-bottom: 50px;
 
@@ -18,14 +19,12 @@
         width: 100%;
         padding: 5px;
 
-        @media screen and (min-width: base.$large) {
-            width: 33%;
-        }
-    }
-
-    img {
         @media screen and (min-width: base.$medium) {
             width: 50%;
         }
-    }
+
+        @media screen and (min-width: base.$large) {
+            width: 33%;
+        }
+    }    
 }

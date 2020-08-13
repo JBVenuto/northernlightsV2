@@ -1,0 +1,22 @@
+@use 'base';
+
+.footer {
+    background-color: base.$aurora-green;
+    color: lightgray;
+    padding: 10px;
+    line-height: 1.5;
+
+    div {
+        margin: auto;
+        max-width: 1080px;
+
+        p {
+            font-size: 16px;
+            text-decoration: underline;
+        }
+        a {
+            font-size: 14px;
+            color: base.$aurora-teal;
+        }
+    }
+}

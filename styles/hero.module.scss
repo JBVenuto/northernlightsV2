@@ -7,6 +7,11 @@
     width: 100%;
     padding: 8px;
 
+    div {
+        margin: auto;
+        max-width: 1080px;
+    }
+
     @media screen and (min-width: base.$medium) {
         font-size: 16px;
     }
@@ -21,22 +26,27 @@
     background-position: center;
     margin-bottom: 50px;
 
-    p {
-        color: base.$aurora-teal;
-        text-align: right;
-        font-family: 'Germania One', cursive;
-        font-size: 24px;
-        filter: blur(1px);
-        opacity: 0.5;
-        margin: 5px;
+    div {
+        margin: auto;
+        max-width: 1080px;
 
-        @media screen and (min-width: base.$medium) {
-            font-size: 46px;
-            margin: 15px;
-        }
+        p {
+            color: base.$aurora-teal;
+            text-align: right;
+            font-family: 'Germania One', cursive;
+            font-size: 24px;
+            filter: blur(1px);
+            opacity: 0.5;
+            margin: 5px;
 
-        @media screen and (min-width: base.$large) {
-            font-size: 70px;
+            @media screen and (min-width: base.$medium) {
+                font-size: 46px;
+                margin: 15px;
+            }
+
+            @media screen and (min-width: base.$large) {
+                font-size: 70px;
+            }
         }
     }
 }

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Hero from '../components/hero';
 import MapInfo from '../components/map-info';
 import KpBar from '../components/kp-bar';
+import Footer from '../components/footer';
 
 import { lastKp } from '../lib/previous';
 import { forcast } from '../lib/forcast';
@@ -33,9 +34,7 @@ export default function Home({ last, upcoming }) {
       <Hero time={last[0]} kp={last[1]} />
       <MapInfo />
       <KpBar kp={upcoming} />
-      {/* {upcoming.map(kpTime => 
-        <li>{kpTime[1]} KP at {kpTime[0]}</li>
-      )} */}
+      <Footer />
     </div>
   )
 }
