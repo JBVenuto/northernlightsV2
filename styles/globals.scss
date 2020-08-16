@@ -13,41 +13,6 @@ li {
   color: white;
 }
 
-// .kpBar {
-//   width: 80%;
-//   margin: auto;
-//   color: white;
-
-//   .kpBar_date {
-//       color: white;
-//   }
-
-//   .kpBar_bar_1 {
-//       background-color: base.$aurora-teal;
-//       text-align: right;
-//       display: inline-block;
-//       width: 11%;
-//   }
-//   .kpBar_bar_2 {
-//       background-color: base.$aurora-teal;
-//       text-align: right;
-//       display: inline-block;
-//       width: 22%;
-//   }
-//   .kpBar_bar_3 {
-//       background-color: base.$aurora-teal;
-//       text-align: right;
-//       display: inline-block;
-//       width: 33%;
-//   }
-//   .kpBar_bar_4 {
-//       background-color: base.$aurora-teal;
-//       text-align: right;
-//       display: inline-block;
-//       width: 44%;
-//   }
-// }
-
 .kp_1 {
   width: 11%;
 }
@@ -59,4 +24,19 @@ li {
 }
 .kp_4 {
   width: 44%;
+}
+.kp_5 {
+  width: 55%;
+}
+.kp_6 {
+  width: 66%;
+}
+.kp_7 {
+  width: 77%;
+}
+.kp_8 {
+  width: 88%;
+}
+.kp_9 {
+  width: 99%;
 }
