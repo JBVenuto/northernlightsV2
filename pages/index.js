@@ -7,7 +7,7 @@ import Footer from '../components/footer';
 import { lastKp } from '../lib/previous';
 import { forcast } from '../lib/forcast';
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch('https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json')
   const data = await res.json()
   const upcoming = await forcast(data)
