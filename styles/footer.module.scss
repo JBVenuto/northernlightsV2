@@ -2,9 +2,10 @@
 
 .footer {
     background-color: base.$aurora-green;
-    color: lightgray;
+    color: base.$lightgray;
     padding: 10px;
     line-height: 1.5;
+    margin-top: 50px;
 
     div {
         margin: auto;

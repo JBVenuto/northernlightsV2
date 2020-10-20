@@ -33,7 +33,6 @@ export default function Home({ last, upcoming }) {
 
       <Hero time={last[0]} kp={last[1]} />
       <MapInfo />
-      <KpBar kp={['2020-10-13 00:00:00', '9']} />
       {upcoming.map(kp => <KpBar kp={kp} />)}
       <Footer />
     </main>
