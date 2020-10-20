@@ -1,15 +1,16 @@
 import styles from '../styles/kpBar.module.scss'
+import timeParse from '../lib/timeParse';
 
 const KpBar = props => {
+    const [date, time] = timeParse(props.kp[0]);
+
     return (
-        <section className={styles.kpBar}>
-            {props.kp.map(kpTime => 
+            <article className={styles.kpBar}>
+                <p>{date[1]}/{date[2]} {time[0]}:{time[1]}</p>
                 <div>
-                    <p>{kpTime[0]}</p>
-                    <span className={`kp_${kpTime[1]}`}>{kpTime[1]}</span>
+                    <span className={`kp_${props.kp[1]}`}>{props.kp[1]}</span>
                 </div>
-            )} 
-        </section>
+            </article>
     )
 }
 

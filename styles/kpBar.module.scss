@@ -4,25 +4,30 @@
     width: 90%;
     max-width: 1080px;
     margin: auto;
-    color: white;
+    color: base.$white;
     font-size: 16px;
-    margin-bottom: 50px;
-    
-    div {
-        display: flex;
+    display: flex;
+    align-content: center;
+    box-sizing: border-box;
 
-        p {
-            padding: 10px;
-            border-right: 2px solid black;
-        }
+    p {
+        padding: 10px;
+        border-right: 2px solid base.$black;
+        width: 20%;
+        text-align: center;
+    }
+
+    div {
+        width: 80%;
+        display: flex;
 
         span {
             display: inline-block;
             background-color: base.$aurora-green;
             text-align: right;
-            margin: 10px 0;
             padding-right: 5px;
+            padding: 5px;
+            align-self: center;
         }
-    }
-
+    }  
 }
