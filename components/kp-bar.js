@@ -10,7 +10,7 @@ const KpBar = (props) => {
         {date[1]}/{date[2]} {time[0]}:{time[1]}
       </p>
       <div>
-        <span className={`kp_${props.kp[1]}`}>{props.kp[1]}</span>
+        <span className={`kp_${Math.round(props.kp[1])}`}>{props.kp[1]}</span>
       </div>
     </article>
   );
