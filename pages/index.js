@@ -37,9 +37,11 @@ export default function Home({ last, upcoming }) {
 
       <Hero time={last[0]} kp={last[1]} />
       <MapInfo />
-      {upcoming.map((kp) => (
+
+      {upcoming &&upcoming.map((kp) => (
         <KpBar kp={kp} />
       ))}
+
       <Footer />
     </main>
   );
