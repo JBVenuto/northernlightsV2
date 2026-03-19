@@ -16,7 +16,7 @@ const Footer = (props) => {
           NOAA: About Space Weather
         </a>
         <br></br>
-        <a href="https://josephvenuto.com" target="_blank">
+        <a href="https://jbvenuto.github.io/" target="_blank">
           About this site's creator
         </a>
       </div>
