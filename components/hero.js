@@ -5,7 +5,9 @@ const Hero = (props) => {
     <section className="hero">
       <div className={styles.recent_kp}>
         <div>
-          The last recorded Kp was {props.kp} at {props.time}
+          {props.kp == null
+            ? "No observed Kp data is currently available."
+            : `The last recorded Kp was ${props.kp} at ${props.time}`}
         </div>
       </div>
       <div className={styles.jumbotron}>

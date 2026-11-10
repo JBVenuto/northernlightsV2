@@ -35,7 +35,7 @@ export default function Home({ last, upcoming }) {
         ></link>
       </Head>
 
-      <Hero time={last[0]} kp={last[1]} />
+      <Hero time={last?.[0]} kp={last?.[1]} />
       <MapInfo />
       {upcoming.map((kp) => (
         <KpBar kp={kp} />
